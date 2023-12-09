@@ -30,6 +30,8 @@ INITIAL_PEERS = [
    "/ip4/130.250.185.236/tcp/32722/p2p/QmSzvetBZaMdeprswgBCLwEZtk2WjGGeXwmChmfWKPmQCK"
 ]
 
+IDENTITY_PATH = "main.id"
+
 DEVICE = "cuda" if torch.cuda.is_available() else "cpu"
 
 try:
